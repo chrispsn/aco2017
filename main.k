@@ -31,14 +31,14 @@ next:{x,(,y)!+/(. x)@&3>+/'{x*x}y-/:!x}
 
 / Problem 4
 
-input:0:"input4"
+input:0:`input4
 466~+/{x~'?'x}@" "\'input
 251~+/{x~'?'x}@{x@<x}''" "\'input
 
 
 / Problem 5
 
-input:`I$0:"input5"
+input:`I$0:`input5
 while:{x~0|y&x@:1}[;-1+#input]
 / while:{</x[1]<0,y}[;#input]    / alt via ngn
 
@@ -52,7 +52,7 @@ next:{(@[x;y;(-1 1@3>x y)+];y+x y;z+1)}.
 
 / Problem 6
 
-input:`I$"\t"\*0:"input6"
+input:`I$"\t"\*0:`input6
 
 seen:!0
 while:{^seen?10/x}
@@ -69,7 +69,7 @@ iters: while next\input
 
 / Problem 7
 
-input:0:"input7"
+input:0:`input7
 input:{(0,x?" )")_x}'input
 input:0 2 5_/:'+input
 input:@[input;2;", "\']
@@ -104,7 +104,7 @@ process:{@[x;y`reg;(-;+)`inc=y`op;(y`comp)[x@y`condreg;y`condarg]*y`arg]}
 
 / Problem 9
 
-input:*0:"input9"
+input:*0:`input9
 
 / Approach 1: masks
 
