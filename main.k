@@ -1,4 +1,5 @@
 // Advent 2017
+/ See also https://github.com/mkst/aoc/tree/master/2017
 
 
 / Problem 1
