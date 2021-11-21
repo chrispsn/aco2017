@@ -4,21 +4,21 @@
 
 / Problem 1
 
-input:(*0:`input1)-"0"
+input:(*0:`input01)-"0"
 1049~+/{(:/x)=':x}#input
 1508~{2*+/(*x)@&=/x:2 0N#x}input
 
 
 / Problem 2
 
-input:`I$"\t"\'0:`input2
+input:`I$"\t"\'0:`input02
 36174~+/-/(|/';&/')@\:input
 244~+/_{%/{x@>x}@*(!/')_+x@&~=#x}'input
 
 
 / Problem 3
 
-input:`I$*0:`input3
+input:`I$*0:`input03
 moves:(1 0;0 1;-1 0;0 -1)
 path:{+\moves@4!&+\x#1 0}                   / or +\~2!!:
 
@@ -32,14 +32,14 @@ next:{x,(,y)!+/(. x)@&3>+/'{x*x}y-/:!x}
 
 / Problem 4
 
-input:0:`input4
+input:0:`input04
 466~+/{x~'?'x}@" "\'input
 251~+/{x~'?'x}@{x@<x}''" "\'input
 
 
 / Problem 5
 
-input:`I$0:`input5
+input:`I$0:`input05
 while:{x~0|y&x@:1}[;-1+#input]
 / while:{</x[1]<0,y}[;#input]    / alt via ngn
 
@@ -53,7 +53,7 @@ next:{(@[x;y;(-1 1@3>x y)+];y+x y;z+1)}.
 
 / Problem 6
 
-input:`I$"\t"\*0:`input6
+input:`I$"\t"\*0:`input06
 
 seen:!0
 while:{^seen?10/x}
@@ -70,7 +70,7 @@ iters: while next\input
 
 / Problem 7
 
-input:0:`input7
+input:0:`input07
 input:{(0,x?" )")_x}'input
 input:0 2 5_/:'+input
 input:@[input;2;", "\']
@@ -90,7 +90,7 @@ a:+{(input[x`holding;`weight]-f-&/f;f:cumweights x`holding)}'a
 
 / Problem 8
 
-input:0:`input8
+input:0:`input08
 input:`reg`op`arg`drop`condreg`comp`condarg!```I````I$+" "\'input
 
 comps:(`">";`"<";`"==";`">=";`"<=";`"!=")!(>;<;=;~<;~>;~=)
@@ -105,7 +105,7 @@ process:{@[x;y`reg;(-;+)`inc=y`op;(y`comp)[x@y`condreg;y`condarg]*y`arg]}
 
 / Problem 9
 
-input:*0:`input9
+input:*0:`input09
 
 / Approach 1: masks
 
