@@ -17,7 +17,7 @@ input:`I$"\t"\'0:`input2
 
 / Problem 3
 
-input:312051
+input:`I$*0:`input3
 moves:(1 0;0 1;-1 0;0 -1)
 path:{+\moves@4!&+\x#1 0}                   / or +\~2!!:
 
@@ -135,7 +135,7 @@ g:{tokens:(#char)^char?x
 
 / Problem 10
 
-input:*,"199,0,255,136,174,254,227,16,51,85,1,2,22,17,7,192"
+input:*0:`input10
 keys:`list`offset`skip
 seed:keys!(!256;0;0)
 
