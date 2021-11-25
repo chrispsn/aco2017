@@ -148,9 +148,8 @@ next:{keys!(@[x`list;i;:;|x[`list;i:(#x`list)!(x`offset)+!y]]
 
 input2:(`i$input),17 31 73 47 23
 padzeroes:{(x-#y)(0,)/y}
-hexify:"0123456789abcdef"padzeroes[2]@16\
 output:64 next/[;input2]/seed
-a:,/(hexify@2/(~=)/padzeroes[8]'2\')'0N 16#*output
+a:`hex@`c$(2/(~=)/padzeroes[8]'2\')'0N 16#*output
 a~"a9d0e68649d0174c8756a59ba21d4dc6"
 
 
